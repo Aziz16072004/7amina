@@ -17,7 +17,7 @@ function NavigationBar() {
       <Navbar expand="lg" className="nav" >
       <Container >
         <Navbar.Brand href="#home"><div className="logo">
-            <img src={logo} />
+            <img src={logo} alt=""/>
             <h1> حامينا</h1>
         </div></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
