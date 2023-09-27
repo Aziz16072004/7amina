@@ -1,6 +1,5 @@
 import '../css/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import DarkMode from "./DarkMode";
 function Home(){
     return(
         <div className='home'>
