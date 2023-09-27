@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/7amina/static/css/main.f5c916d8.css",
+    "main.js": "/7amina/static/js/main.ea9f6833.js",
+    "static/js/787.42243125.chunk.js": "/7amina/static/js/787.42243125.chunk.js",
+    "static/media/amen.jpg": "/7amina/static/media/amen.a9b380f75908cb6e6ee6.jpg",
+    "static/media/hadir.jpg": "/7amina/static/media/hadir.3ac93659ec4b0de60a57.jpg",
+    "static/media/logo.png": "/7amina/static/media/logo.cbd90f75d675ee2469cb.png",
+    "static/media/hwas.jpg": "/7amina/static/media/hwas.2fea41c3643dcc991708.jpg",
+    "static/media/aziz.jpg": "/7amina/static/media/aziz.a2858e689a1f51950339.jpg",
+    "static/media/enGroupe.jpg": "/7amina/static/media/enGroupe.2185a5b94330b879bc6f.jpg",
+    "static/media/groupe.jpg": "/7amina/static/media/groupe.ec6b25f157b5f0a754c0.jpg",
+    "static/media/dali.jpg": "/7amina/static/media/dali.1f3937e026d3f94fad94.jpg",
+    "index.html": "/7amina/index.html",
+    "main.f5c916d8.css.map": "/7amina/static/css/main.f5c916d8.css.map",
+    "main.ea9f6833.js.map": "/7amina/static/js/main.ea9f6833.js.map",
+    "787.42243125.chunk.js.map": "/7amina/static/js/787.42243125.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5c916d8.css",
+    "static/js/main.ea9f6833.js"
+  ]
+}
