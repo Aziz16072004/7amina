@@ -22,7 +22,7 @@ function Home(){
                 </div>
                 <div className="email col-12 col-md-5 bord">
                     <p> البريد الالكتروني </p>
-                    <p><input type="email"  id="email"/></p>
+                    <p><input type="email"  id="email" placeholder='حط بريدك الالكتروني'/></p>
                 </div>
             </div>
             <div className="info-num-naiss w-100 row ">
@@ -46,7 +46,7 @@ function Home(){
             <div className="message w-100">
                 <p>مشكلتك  </p>
                 <img src="img/mic.png" alt=""/>
-                <p className='w-100'><textarea className='w-100'name="" id=""  cols="30" rows="5">
+                <p className='w-100'><textarea className='w-100'name="" id=""  cols="30" rows="5" placeholder='كان عندك مشكلة صارتلك تنجم تكتبها هنا'>
                     
                 </textarea></p>
             </div>
