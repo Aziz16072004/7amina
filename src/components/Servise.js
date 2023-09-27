@@ -18,7 +18,7 @@ function Servise (){
                     + كيفية احتواء الضعيف </p>
             </div>
             <div className="image col-12 col-md-7 col-lg-4 ">
-                <img src={wiqayaImg} alt="photo"/>
+                <img src={wiqayaImg}  />
             </div>
         </div>
 
@@ -35,7 +35,7 @@ function Servise (){
             </p>
             </div>
             <div className="image col-12 col-md-7 col-lg-4">
-                <img src={ailej} alt="photo 3ilej"/>
+                <img src={ailej} />
             </div>
         </div>
     </div>

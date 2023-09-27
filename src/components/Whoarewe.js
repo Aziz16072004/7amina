@@ -83,7 +83,7 @@ function Whoarewe() {
                         <span className="overlay"></span>
 
                         <div className="card-image">
-                                <img src={user.photo} alt="" className="card-img" />
+                                <img src={user.photo}  className="card-img" />
                         </div>
             </div>
             <div className="card-content">

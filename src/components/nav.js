@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
-import {Nav , Navbar , NavDropdown} from 'react-bootstrap';
+import {Nav , Navbar } from 'react-bootstrap';
 import logo from '../img/logo.png';
-import { BrowserRouter as Router,Routes, Route, Link ,Switch} from 'react-router-dom';
+import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import '../css/style.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,7 +17,7 @@ function NavigationBar() {
       <Navbar expand="lg" className="nav" >
       <Container >
         <Navbar.Brand href="#home"><div className="logo">
-            <img src={logo} alt=""/>
+            <img src={logo} />
             <h1> حامينا</h1>
         </div></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
