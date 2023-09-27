@@ -33,7 +33,7 @@ function Home(){
                     <p><input type="number" name="num" id="num" /></p>
                 </div>
             </div>
-            <div class="gender">
+            <div className="gender">
                 <p>الجنس </p>
                 <div className='row justify-content-center align-items-center gap-4'>
                     <p className='col-6 w-auto'> <input type="radio" name="gend" id="gend1"/>  ذكر</p>

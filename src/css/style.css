@@ -163,10 +163,10 @@ form .btn:hover{
 .wrapper{
     display:flex;
     justify-content: center;
-    /* margin-bottom: 60px; */
+    gap: 5%;
+    margin-bottom: 60px;
   }
   .wrapper .icon{
-    margin: 0 20px;
     cursor:pointer;
     display:flex;
     align-items:center;
