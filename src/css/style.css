@@ -143,7 +143,10 @@ form .btn:hover{
 }
 /* end home page style */
 
-
+.errorMessage{
+    font-size: 15px !important;
+    color: red !important;
+}
 
 
 /* start servise style */
