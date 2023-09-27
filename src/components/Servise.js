@@ -2,6 +2,7 @@ import wiqayaImg from '../img/enGroupe.jpg';
 import ailej from '../img/groupe.jpg';
 function Servise (){
     return(
+<div className='service-content' >
 <div className='container'>
     <div className="service ">
         <div className="wiqaya row w-100 gap-0">
@@ -38,6 +39,7 @@ function Servise (){
                 <img src={ailej} alt=""/>
             </div>
         </div>
+    </div>
     </div>
     </div>
     )

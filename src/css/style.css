@@ -10,8 +10,28 @@
     --mainColor:#f7a220;
     --grayColor : #3f3e40;
     --backGround : #ffffff;
-    /* --fontColor : rgb(4, 113, 9); */
+    --white-color : white;
+    --black-color : #121212;
     --fontColor : #4070f4;
+    --scrollBar : rgb(172, 172, 172);
+    --swipper-bullet : #434343;
+    
+}
+[data-theme = "dark"]{
+    --white-color : #121212;
+    --black-color : white;
+    --scrollBar : rgb(80, 80, 80) !important;
+    --swipper-bullet : #fefefe;
+}
+body {
+    min-height: 100vh;
+    background: var(--white-color) !important;
+}
+
+.whoarewe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* start nav bar  */
 .nav{
@@ -39,8 +59,8 @@
 
 }
 .nav .navbar-btn a:hover {
-    color: black;
-    background-color: white;
+    color: var(--black-color);
+    background-color: var(--white-color);
     border-radius: 15px;
 }
 .navbar-nav{
@@ -49,6 +69,9 @@
 .logo {
     display: flex;
     align-items: center;
+}
+.home p{
+    color:var(--black-color);
 }
 .logo img {
     width: 50px;
@@ -83,10 +106,14 @@ form{
 .info-name input,.email input .number input, .dateNaiss input,.number input{
     height: 30px;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--black-color);
     width: 100%;
+    background-color: var(--white-color);
 }
-
+.message textarea{
+    border-bottom: 2px solid var(--black-color);
+    background: var(--white-color);
+}
 form p{
     font-weight: 600;
     font-size: 18px;
@@ -101,11 +128,11 @@ form .btn{
     width: 100%;
     padding: 10px 0;
     border-radius: 46px;
-    color: white;
+    color: var(--white-color);
 }
 form .btn:hover{
     background-color: var(--fontColor)!important;
-    color: white !important;
+    color: var(--white-color) !important;
 }
 
 
@@ -135,6 +162,7 @@ form .btn:hover{
 }
 .service{
     height: auto !important;
+    color: var(--black-color);
 }
 @media screen and (max-width: 768px) {
     .wiqaya img, .ailej img {
@@ -148,7 +176,11 @@ form .btn:hover{
 /* end servise style */
 
 
-
+.dark_mode{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 /* start contact us stylee */
 .contact-content{
     width: 100%;
@@ -159,6 +191,32 @@ form .btn:hover{
 }
 .swiper{
     margin-top: 200px;
+
+}
+.swiper p , .swiper h2 {
+    color: var(--black-color);
+}
+.swiper-slide{
+    border-radius: 25px;
+    box-shadow: 2px 4px 20px gray;
+    padding-bottom: 20px;
+
+}
+.swiper-scrollbar-drag {
+    
+    background: var(--black-color) !important ;  
+}
+.swiper-pagination-bullet{
+    background: var(--swipper-bullet) !important;
+}
+.swiper-scrollbar {
+    border-radius: var(--swiper-scrollbar-border-radius, 10px);
+    position: relative;
+    touch-action: none;
+    background: var(--scrollBar) !important;
+}
+.swiper-pagination-bullet-active{
+    background-color: var(--fontColor) !important;
 }
 .wrapper{
     display:flex;
@@ -195,12 +253,12 @@ form .btn:hover{
   .wrapper .icon .tooltip{
     position:absolute;
     top:0px;
-    background: #fff;
+    background: var(--white-color);
     box-shadow: 0 10px 10px rgba(0,0,0,0.1);
     font-size: 20px;
     padding: 10px 18px;
     border-radius: 25px;
-    color:white;
+    color:var(--white-color);
     opacity:0;
     pointer-events: none;
     transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -224,7 +282,7 @@ form .btn:hover{
     text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
   }
   .wrapper .icon:hover span{
-    color: #fff;
+    color: var(--white-color);
   }
   .wrapper .facebook:hover span,
   .wrapper .facebook:hover .tooltip,
@@ -255,6 +313,7 @@ form .btn:hover{
 }
 .image-content,
 .card-content{
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -286,7 +345,7 @@ form .btn:hover{
 }
 .overlay::after{
     border-radius: 0 25px 0 0;
-    background-color: #FFF;
+    background-color: var(--white-color);
 }
 .card-image{
     position: relative;
@@ -365,12 +424,10 @@ form .btn:hover{
         display: none;
     }
     }
-.service-content{
-    margin: 300px 0;
-}
+
 .view-more{
     background-color: var(--fontColor) !important;
-    color: white !important;
+    color: var(--white-color) !important;
     font-weight: 600 !important;
     transition: .5s !important;
 }
@@ -381,6 +438,15 @@ form .btn:hover{
 
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
     content: 'next';
-    color: black !important;
+    color: var(--black-color) !important;
 }
+.copyRight{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    color: gray;
+    
+    margin-top: 25px;
+}
+
 /* end who are we style  */

@@ -8,6 +8,7 @@ import amenHouass from '../img/hwas.jpg' ;
 import daliDahw from '../img/dali.jpg' ;
 import amen from '../img/amen.jpg' ;
 import hadir from '../img/hadir.jpg' ;
+import { FaRegCopyright } from "react-icons/fa6";
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 
 function Whoarewe() {
@@ -50,6 +51,7 @@ function Whoarewe() {
   ];
 
   return (
+    <div className='whoarewe'>
     <div className='container'>
     <Swiper
     modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -97,6 +99,11 @@ function Whoarewe() {
         </SwiperSlide>
       ))}
     </Swiper>
+    <div className='copyRight'>
+      <p><FaRegCopyright/></p>
+      <p>تم إنشاء هذا الموقع الإلكتروني في عام 2023 خلال مسابقة الهاكاثون في  وي كود بدار الشباب بالزهروني  . </p>
+    </div>
+    </div>
     </div>
   );
 }

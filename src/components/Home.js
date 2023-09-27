@@ -1,8 +1,11 @@
 import '../css/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import DarkMode from "./DarkMode";
 function Home(){
     return(
-        <div className='container home'>
+        <div className='home'>
+        <div className='container '>
+           
         <section className="row">
         
                 <div className="introduction col-12 col-md-6 d-flex"> 
@@ -53,6 +56,7 @@ function Home(){
 
         
         </section>
+        </div>
         </div>
     )
 }

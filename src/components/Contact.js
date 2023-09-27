@@ -1,6 +1,7 @@
 
 function Contact () {
     return(
+      <div className="contact">
         <div className="contact-content">
         <div className="wrapper">
         <div className="icon facebook">
@@ -10,7 +11,8 @@ function Contact () {
       
         <div className="icon twitter">
           <div className="tooltip">Twitter</div>
-          <a href="#"><span><i className="fab fa-twitter"></i></span></a>
+          <span><i className="fab fa-twitter"></i></span>
+          
         </div>
     <div className="icon github">
           <div className="tooltip">github</div>
@@ -20,6 +22,7 @@ function Contact () {
           <div className="tooltip">YouTube</div>
           <span><i className="fab fa-youtube"></i></span>
         </div>
+    </div>
     </div>
     </div>
     )
