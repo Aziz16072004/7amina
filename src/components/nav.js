@@ -24,7 +24,7 @@ function NavigationBar() {
         <Navbar.Collapse id="basic-navbar-nav" className="navbar-btn" >
           <Nav className="me-auto">
           
-            <Nav.Link as={Link} to="/7amina">الصفحة الرئيسية</Nav.Link>
+            <Nav.Link as={Link} to="/7amina/">الصفحة الرئيسية</Nav.Link>
             <Nav.Link as={Link} to="/الخدمات">الخدمات</Nav.Link>
             <Nav.Link as={Link} to="/تواصل-معنا">تواصل معنا</Nav.Link>
             <Nav.Link as={Link} to="/من-نحن">من نحن</Nav.Link>
@@ -36,7 +36,7 @@ function NavigationBar() {
       </Container>
     </Navbar>
     <Routes>
-            <Route path="/" Component={Home} />
+            <Route path="/7amina/" Component={Home} />
             <Route path="/الخدمات" Component={Servise} />
             <Route path="/تواصل-معنا" Component={Contact} />
             <Route path="/من-نحن" Component={Whoarewe} />
