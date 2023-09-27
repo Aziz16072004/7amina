@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/7amina/static/css/main.1c4d316a.css",
-    "main.js": "/7amina/static/js/main.927c0179.js",
+    "main.css": "/7amina/static/css/main.bcec82e2.css",
+    "main.js": "/7amina/static/js/main.ea61c37d.js",
     "static/js/787.42243125.chunk.js": "/7amina/static/js/787.42243125.chunk.js",
     "static/media/amen.jpg": "/7amina/static/media/amen.a9b380f75908cb6e6ee6.jpg",
     "static/media/hadir.jpg": "/7amina/static/media/hadir.3ac93659ec4b0de60a57.jpg",
@@ -14,12 +14,12 @@
     "static/media/Sun.svg": "/7amina/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
     "index.html": "/7amina/index.html",
     "static/media/Moon.svg": "/7amina/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
-    "main.1c4d316a.css.map": "/7amina/static/css/main.1c4d316a.css.map",
-    "main.927c0179.js.map": "/7amina/static/js/main.927c0179.js.map",
+    "main.bcec82e2.css.map": "/7amina/static/css/main.bcec82e2.css.map",
+    "main.ea61c37d.js.map": "/7amina/static/js/main.ea61c37d.js.map",
     "787.42243125.chunk.js.map": "/7amina/static/js/787.42243125.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c4d316a.css",
-    "static/js/main.927c0179.js"
+    "static/css/main.bcec82e2.css",
+    "static/js/main.ea61c37d.js"
   ]
 }
